@@ -45,6 +45,7 @@
     </div>
 </div>
 <body>
+<div id="main">
    <div class="header">
      	<h1>Problem 1-1</h1>
    </div>
@@ -56,14 +57,13 @@
 	
    </div>
    <div class="content">
-       <form action="">
+       <form action="" class="form">
            <p>choose your answer:</p>
 
-           <input type="radio" name="answer" value="A" />A
-           <input type="radio" name="answer" value="B" />
-           B
-           <input type="radio" name="answer" value="C" />C
-           <input type="radio" name="answer" value="D" />D
+           <input type="radio" name="answer" value="A" id="A" /><label for="A">A</label>
+           <input type="radio" name="answer" value="B" id="B" /><label for="B">B</label>
+           <input type="radio" name="answer" value="C" id="C" /><label for="C">C</label>
+           <input type="radio" name="answer" value="D" id="D" /><label for="D">D</label>
            <br />
            <textarea name="answer2" cols="20" rows="4">Enter your answer</textarea> 
            <br />
@@ -71,6 +71,8 @@
            <input type="submit" name="submit" value="submit">
        </form>
    </div>
+</div>
+   
    <script src="js/ui.js"></script>
 </body>
 </html>
