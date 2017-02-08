@@ -13,14 +13,9 @@ body {
 	margin-right: 10px;
 }
 
-.img-vertical {
+.image {
 	max-height: 360px;
-	max-width: 220px;
-}
-
-.img-horizontal {
-	max-height: 210px;
-	max-width: 330px;
+	max-width: 360px;
 }
 
 /*
