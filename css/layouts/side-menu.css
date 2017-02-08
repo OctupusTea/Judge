@@ -46,6 +46,7 @@ The content `<div>` is where all your content goes.
 	max-width: 800px;
 	margin-bottom: 50px;
 	font-size: 1.2em;
+	letter-spacing: 0.02em;
 	line-height: 1.6em;
 }
 
@@ -76,6 +77,9 @@ The content `<div>` is where all your content goes.
 	color: #888;
 }
 
+
+
+
 .content-emphasize {
 	magin: 50px 0 20px 0;
 	font-weight: 300;
@@ -83,13 +87,34 @@ The content `<div>` is where all your content goes.
 	color: #D77;
 }
 
-.content a {
-	color: #DD7;
+.problem-score-correct {
+	color: #ADA;
 }
 
-.problem-score {
-	font-size: 1.2em;
-	color: #DDA;
+.problem-score-incorrect {
+	color: #DAA;
+}
+
+.problem-radio-discription {
+	
+}
+
+.problem-checkbox-description {
+	
+}
+
+.problem-blank-description {
+	line-height: 2.5em;
+}
+
+.problem-radio, .problem-checkbox, .problem-blank{
+	background-color: #444;
+	color: #DDD;
+	line-height: 1em;
+}
+
+.content a {
+	color: #DD7;
 }
 
 a:visited {

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
-	<title>problem</title>
+	<title>Activity :: Problem Template</title>
 	
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 	
@@ -53,29 +53,49 @@
    </div>
    <div class="content">
 		<p class="content-emphasize">! This Is Problem Template !</p>
-		<h2 class="content-subhead">Problem Description</h2>
-		<p>Problem Discription Here.</p>
-		 
+		
 		<div class="problem-score">
-			<p>Correct : + 10 pts</p>
-			<p>Incorrect : - 10 pts</p>
+			<h2 class="content-subhead">Problem Score</h2>
+			<p class="problem-score-correct">Correct : + 10 pts</p>
+			<p class="problem-score-incorrect">Incorrect : - 10 pts</p>
 		</div>
-	
-   </div>
-   <div class="content">
-	   <form action="" class="form">
-		   <p>choose your answer:</p>
-
-		   <input type="radio" name="answer" value="A" id="A" /><label for="A">A</label>
-		   <input type="radio" name="answer" value="B" id="B" /><label for="B">B</label>
-		   <input type="radio" name="answer" value="C" id="C" /><label for="C">C</label>
-		   <input type="radio" name="answer" value="D" id="D" /><label for="D">D</label>
-		   <br />
-		   <textarea name="answer2" cols="20" rows="4" placeholder="Enter Your Answer Here."></textarea> 
-		   <br />
-
-		   <input type="submit" name="submit" value="submit">
-	   </form>
+		
+		<h2 class="content-subhead">Problem Description</h2>
+		<p>Problem Description Here.</p>
+		
+		<h2 class="content-subhead">Choose Your Answer :</h2>
+			
+		<!--Multiple Selection-->
+		<form action="" class="problem-radio-discription">
+			<input type="radio" name="answer" value="A" id="RA" class="problem-radio"/><label for="RA"> A : Description A</label><br/>
+			<input type="radio" name="answer" value="B" id="RB" class="problem-radio"/><label for="RB"> B : Description B</label><br/>
+			<input type="radio" name="answer" value="C" id="RC" class="problem-radio"/><label for="RC"> C : Description C</label><br/>
+			<input type="radio" name="answer" value="D" id="RD" class="problem-radio"/><label for="RD"> D : Description D</label><br/>
+			<br/>
+			<input type="submit" name="submit" value="submit" class="submit-botton">
+		</form>
+		<br/><hr/><br/>
+		
+		<!--Checkbox-->
+		<form action="" class="problem-checkbox-discription">
+			<input type="checkbox" name="answer" value="A" id="CA" class="problem-checkbox"/><label for="CA"> A : Description A</label><br/>
+			<input type="checkbox" name="answer" value="B" id="CB" class="problem-checkbox"/><label for="CB"> B : Description B</label><br/>
+			<input type="checkbox" name="answer" value="C" id="CC" class="problem-checkbox"/><label for="CC"> C : Description C</label><br/>
+			<input type="checkbox" name="answer" value="D" id="CD" class="problem-checkbox"/><label for="CD"> D : Description D</label><br/>
+			<input type="checkbox" name="answer" value="E" id="CE" class="problem-checkbox"/><label for="CE"> E : Description E</label><br/>
+			<br/>
+			<input type="submit" name="submit" value="submit" class="submit-botton">
+		</form>
+		<br/><hr/><br/>
+		
+		<!--Fill Blank-->
+		<form action="" class="problem-blank-description">
+			<label for="Q1">Answer For Question 1 :</label><input type="text" name="answer" id="Q1" placeholder="" class="problem-blank" /><br/>
+			<label for="Q2">Answer For Question 2 :</label><input type="text" name="answer" id="Q2" placeholder="" class="problem-blank" /><br/>
+			<label for="Q3">Answer For Question 3 :</label><input type="text" name="answer" id="Q3" placeholder="" class="problem-blank" /><br/>
+			<br />
+			<input type="submit" name="submit" value="submit" class="submit-botton">
+		</form>
    </div>
 </div>
    
