@@ -8,6 +8,21 @@ body {
 	height: auto;
 }
 
+.img-align-right {
+	float: right;
+	margin-right: 10px;
+}
+
+.img-vertical {
+	max-height: 360px;
+	max-width: 220px;
+}
+
+.img-horizontal {
+	max-height: 210px;
+	max-width: 330px;
+}
+
 /*
 Add transition to containers so they can push in and out.
 */
@@ -96,19 +111,11 @@ The content `<div>` is where all your content goes.
 	color: #DAA;
 }
 
-.problem-radio-discription {
-	
-}
-
-.problem-checkbox-description {
-	
-}
-
 .problem-blank-description {
 	line-height: 2.5em;
 }
 
-.problem-radio, .problem-checkbox, .problem-blank{
+.problem-blank{
 	background-color: #444;
 	color: #DDD;
 	line-height: 1em;
@@ -123,6 +130,8 @@ a:visited {
 }
 
 .submit-botton {
+	height: 1.6em;
+	width: 8em;
 	color: #DDD;
 	background-color: #222
 }
