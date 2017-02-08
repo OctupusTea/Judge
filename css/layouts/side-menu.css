@@ -299,42 +299,54 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 		left: 150px;
 	}
 }
-table{
-	font-size: 150%;
 
-	margin:10px auto 10px auto;
-	
+table{
+	font-size: 1.2em;
+	margin:50px auto 50px auto;
+	border: 3px solid #BBB;
+	color: #BBB;
 }
+
 th, td{
 	padding: 7px 10px 10px 10px;
 }
+
 th{
 	text-transform: uppercase;
-	
-
-
 }
-th.num{
+
+.no{
 	width: 150px;
 }
-tr.tablefirstrow{
-	background-color: red;
-	border-bottom: 3px double blue;
-	border-top: 2px  solid blue;
+
+.tablefirstrow{
+	background-color: #234;
+	color: #BBB;
+	border-bottom: 7px double;
+	border-top: 2px solid;
 }
+
 td{
 	padding: 5px 10px 5px 10px;
 }
-tr.even{
-	background-color:DarkCyan;
+
+tr.jizz1{
+	background-color: #222;
 }
-tr:hover{
-	background-color:#c3e6e5;
+
+tr.jizz0{
+	background-color: #333;
 }
+
+tr.jizz0:hover, tr.jizz1:hover{
+	background-color:#444;
+}
+
 .score{
 	text-align: right;
 	width: 200px;
 }
+
 .name{
 	text-align: center;
 	width: 250px;
