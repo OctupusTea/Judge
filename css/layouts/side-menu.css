@@ -366,12 +366,12 @@ tr.jizz0:hover, tr.jizz1:hover{
 
 
 
-
-
 h2.content-href {
 	margin: 50px 0 20px 0;
 	font-weight: 300;
 	font-size: 1.5em;
 	text-align: center;
 	color: #D77;}
-
+div.facebook{
+	margin: 50px 0 20px 0;
+}
