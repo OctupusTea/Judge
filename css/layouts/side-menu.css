@@ -81,7 +81,7 @@ The content `<div>` is where all your content goes.
 	}
 
 .content-subhead {
-	margin: 50px 0 20px 0;
+	margin: 50px 0 5px 0;
 	font-weight: 300;
 	font-size: 1.5em;
 	color: #888;
@@ -118,17 +118,27 @@ The content `<div>` is where all your content goes.
 
 .content a {
 	color: #DD7;
+
 }
-ul{
+li.infor, li.Set{
 	margin: 10px auto 10px auto;
+	width:300px;
+	font-size: 1.2em;
 }
+li.Set{
+	font-size: 1.4em;
+	margin:20px auto 20px auto;
+}
+
 ul.news{
 	list-style-type: none;
 }
 ul.profile{
 	list-style-type: none;
 }
-
+a{
+	text-decoration:none;
+}
 a:visited {
 	color: #AE7;
 }
@@ -391,4 +401,10 @@ h2.content-href {
 	color: #D77;}
 div.facebook{
 	margin: 50px 0 20px 0;
+}
+p.time{
+	margin-left: 50px;
+	margin-top: 0px;
+	font-size:0.8em;
+	color: #D77;
 }
