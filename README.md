@@ -14,3 +14,9 @@ This software is free to use under the zLib license.
 See the [zLib][] license for more information.
 
 [zLib]: http://www.zlib.net/zlib_license.html
+
+
+information=profile
+you die =contact us
+how to play = direction
+home=index
