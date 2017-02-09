@@ -117,9 +117,22 @@ The content `<div>` is where all your content goes.
 .content a {
 	color: #DD7;
 }
+ul{
+	margin: 10px auto 10px auto;
+}
+ul.news{
+	list-style-type: none;
+}
+ul.profile{
+	list-style-type: none;
+}
 
 a:visited {
-	color: #AD7;
+	color: #AE7;
+}
+a:hover{
+	text-decoration:underline;
+	color:blue;
 }
 
 .submit-botton {
