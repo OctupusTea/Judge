@@ -78,7 +78,20 @@ The content `<div>` is where all your content goes.
 }
 
 
-
+.content-title {
+	margin: 50px 0 20px 0;
+	font-weight: 300;
+	font-size: 2.3em;
+	text-align: center;
+	color: Cyan;
+}
+.content-name {
+	margin: 50px 0 20px 0;
+	font-weight: 300;
+	font-size: 2.3em;
+	text-align: center;
+	color: Red;
+}
 
 .content-emphasize {
 	margin: 50px 0 20px 0;
@@ -118,6 +131,17 @@ The content `<div>` is where all your content goes.
 	color: #DD7;
 
 }
+ul.news{
+	list-style-type: none;
+}
+ul.profile{
+	list-style-type: none;
+}
+ul.contributors, ul.group1, ul.group2{
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+
+}
 li.infor, li.Set{
 	margin: 10px auto 10px auto;
 	width:300px;
@@ -127,13 +151,18 @@ li.Set{
 	font-size: 1.4em;
 	margin:20px auto 20px auto;
 }
+li.contri{
+	font-size: 0.8em;
+	padding: 15px 0px;
 
-ul.news{
-	list-style-type: none;
 }
-ul.profile{
-	list-style-type: none;
+li.group{
+	color:yellow;
+	padding:15px 0px 50px 0px;
+
 }
+
+
 a{
 	text-decoration:none;
 }
