@@ -46,29 +46,27 @@
 			</ul>
 		</div>
 	</div>
-</div>
 	<div id="main">
-	   <div class =header>
+	   <div class ="header">
 		   <h1>Log In</h1>
+		   <h2>Linkin' Your Facebook</h2>
 	   </div>   
 	   <div class="content">
-		   <form>
-			   <p>Username:
-				   <input type="text" name="username" size="16" maxlength="16">
-			   </p>
-			   <p>Password:
-				   <input type="password" name="password" size="16" maxlength="16">
-			   </p>
-			   <input type="submit" name="submit" value="submit" class="submit-botton">
-		   </form>
+			<form>
+				<label class="label-left" for="admin">Administrator : </label><input id="admin" type="text" name="admin" size="16" maxlength="16" class="blank-left">
+				<label class="label-right" for="facebook">Facebook : </label><input id="facebook" type="text" name="facebook" size="16" maxlength="16" class="blank-right">
+				<br/>
+				<label class="label-left" for="admin-password">Password : </label><input id="admin-password" type="password" name="admin-password" size="16" maxlength="16" class="blank-left">
+				<label class="label-right" for="password">Password : </label><input id="password" type="password" name="password" size="16" maxlength="16" class="blank-right">
+				<br/>
+				<input id="submit-admin" type="submit" name="submit-admin" value="Administrator Login">
+				<input id="submit-facebook" type="submit" name="submit-facebook" value="Facebook Login">
+			</form>
 		   
-		      <form>
-		      	<input type="submit" name="facebook" value="facebook" class="submit-botton">
-		      </form>
-		   	
-		 
-		   
-	   </div>
+			<form>
+				
+			</form>
+		</div>
 	</div>
 	<script src="js/ui.js"></script>
 </body>

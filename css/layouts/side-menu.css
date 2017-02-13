@@ -85,14 +85,27 @@ The content `<div>` is where all your content goes.
 	font-weight: 300;
 	font-size: 1.8em;
 	color: #888;
-	text-align: center;
 }
 	
-.content-subhead {
+h2.content-subhead {
 	margin: 50px 0 5px 0;
 	font-weight: 300;
 	font-size: 1.5em;
 	color: #888;
+}
+
+.content-listed {
+	margin: 15px 0 0 50px;
+	font-weight: 150;
+	font-size: 1.2em;
+	color: #CCC;
+}
+
+.content-hyperlink {
+	margin: 0px 0 0px 0;
+	font-weight: 300;
+	text-align: center;
+	color: #D77;
 }
 
 .content-emphasize {
@@ -123,7 +136,6 @@ The content `<div>` is where all your content goes.
 
 .content a {
 	color: #DD7;
-
 }
 
 li.infor, li.Set{
@@ -149,22 +161,52 @@ a{
 	text-decoration:none;
 }
 
-a:visited {
+a:hover{
 	color: #AE7;
 }
 
-a:hover{
-	text-decoration:underline;
-	color: #7EA;
+
+.label-left {
+	position: relative;
+	left: 30px;
 }
 
-.submit-botton {
+.label-right {
+	position: relative;
+	left: 430px;
+}
+
+.blank-left {
+	position: relative;
+	left: 180px;
+}
+
+.blank-right {
+	position: relative;
+	left: 540px;
+}
+
+#submit-admin {
+	position: relative;
+	left: 120px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 8px;
 	height: 1.6em;
-	width: 8em;
+	width: 12em;
 	color: #DDD;
 	background-color: #222
 }
 
+#submit-facebook {
+	position: relative;
+	left: 480px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 8px;
+	height: 1.6em;
+	width: 12em;
+	color: #dfe3ee;
+	background-color: #3b5998;
+}
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.
@@ -390,14 +432,6 @@ tr.jizz0:hover, tr.jizz1:hover{
 	width: 250px;
 }
 
-h2.content-href {
-	margin: 50px 0 20px 0;
-	font-weight: 300;
-	font-size: 1.5em;
-	text-align: center;
-	color: #D77;
-}
-	
 div.facebook{
 	margin: 50px 0 20px 0;
 }
