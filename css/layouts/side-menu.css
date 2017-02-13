@@ -8,6 +8,16 @@ body {
 	height: auto;
 }
 
+.img-align-right {
+	float: right;
+	margin-right: 10px;
+}
+
+.image {
+	max-height: 360px;
+	max-width: 360px;
+}
+
 /*
 Add transition to containers so they can push in and out.
 */
@@ -70,6 +80,14 @@ The content `<div>` is where all your content goes.
 		margin-top: 0;
 	}
 
+.content-title {
+	margin: 50px 0 5px 0;
+	font-weight: 300;
+	font-size: 1.8em;
+	color: #888;
+	text-align: center;
+}
+	
 .content-subhead {
 	margin: 50px 0 5px 0;
 	font-weight: 300;
@@ -77,13 +95,10 @@ The content `<div>` is where all your content goes.
 	color: #888;
 }
 
-
-
-
 .content-emphasize {
 	margin: 50px 0 20px 0;
 	font-weight: 300;
-	font-size: 2em;
+	font-size: 1.8em;
 	text-align: center;
 	color: #D77;
 }
@@ -96,19 +111,11 @@ The content `<div>` is where all your content goes.
 	color: #DAA;
 }
 
-.problem-radio-discription {
-	
-}
-
-.problem-checkbox-description {
-	
-}
-
 .problem-blank-description {
 	line-height: 2.5em;
 }
 
-.problem-radio, .problem-checkbox, .problem-blank{
+.problem-blank{
 	background-color: #444;
 	color: #DDD;
 	line-height: 1em;
@@ -118,11 +125,13 @@ The content `<div>` is where all your content goes.
 	color: #DD7;
 
 }
+
 li.infor, li.Set{
 	margin: 10px auto 10px auto;
 	width:300px;
 	font-size: 1.2em;
 }
+
 li.Set{
 	font-size: 1.4em;
 	margin:20px auto 20px auto;
@@ -131,21 +140,27 @@ li.Set{
 ul.news{
 	list-style-type: none;
 }
+
 ul.profile{
 	list-style-type: none;
 }
+
 a{
 	text-decoration:none;
 }
+
 a:visited {
 	color: #AE7;
 }
+
 a:hover{
 	text-decoration:underline;
-	color:blue;
+	color: #7EA;
 }
 
 .submit-botton {
+	height: 1.6em;
+	width: 8em;
 	color: #DDD;
 	background-color: #222
 }
@@ -375,32 +390,43 @@ tr.jizz0:hover, tr.jizz1:hover{
 	width: 250px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h2.content-href {
 	margin: 50px 0 20px 0;
 	font-weight: 300;
 	font-size: 1.5em;
 	text-align: center;
-	color: #D77;}
+	color: #D77;
+}
+	
 div.facebook{
 	margin: 50px 0 20px 0;
 }
+
 p.time{
 	margin-left: 50px;
 	margin-top: 0px;
 	font-size:0.8em;
-	color: #D77;
+	color: #DDA;
+}
+
+dt.question{
+	margin: 50px 0 5px 0;
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #888;
+}
+
+dd.question{
+	margin: 0 30px;
+}
+
+dt.answer{
+	margin: 20px 0 5px 10px;
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #888;
+}
+
+dd.answer{
+	margin: 0 40px;
 }
