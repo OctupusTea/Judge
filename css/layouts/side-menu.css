@@ -165,30 +165,33 @@ a:hover{
 	color: #AE7;
 }
 
-
-.label-left {
-	position: relative;
-	left: 30px;
+#left-half {
+	min-width: 330px;
+	width: 50%;
+	float: left;
+	text-align: center;
 }
 
-.label-right {
-	position: relative;
-	left: 430px;
+#right-half {
+	min-width: 330px;
+	width: 50%;
+	float: left;
+	text-align: center;
 }
 
-.blank-left {
+.login-label {
+	float: left;
 	position: relative;
-	left: 180px;
+	left: 10px;
 }
 
-.blank-right {
+.login-blank {
+	float: right;
 	position: relative;
-	left: 540px;
+	right: 10px;
 }
 
 #submit-admin {
-	position: relative;
-	left: 120px;
 	margin: 5px 5px 5px 5px;
 	border-radius: 8px;
 	height: 1.6em;
@@ -198,9 +201,7 @@ a:hover{
 }
 
 #submit-facebook {
-	position: relative;
-	left: 480px;
-	margin: 5px 5px 5px 5px;
+	margin: 5px 5px 105px 5px;
 	border-radius: 8px;
 	height: 1.6em;
 	width: 12em;
