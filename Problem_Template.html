@@ -17,6 +17,7 @@
 			<link rel="stylesheet" href="css/layouts/side-menu.css">
 		<!--<![endif]-->
 </head>
+<body>
 <div id="layout">
 	<!-- Menu toggle -->
 	<a href="#menu" id="menuLink" class="menu-link">
@@ -45,8 +46,6 @@
 			</ul>
 		</div>
 	</div>
-</div>
-<body>
 <div id="main">
    <div class="header" >
 		<h1>Problem Template</h1>
@@ -78,6 +77,15 @@
 		<!--Fill Blank-->
 		<form action="" class="problem-blank-description">
 			<input type="text" name="answer" placeholder="Answer Here." class="problem-blank" />
+			<input type="submit" name="submit" value="Submit" class="submit-button"><br/>
+		</form>
+		
+		<form action="" class="problem-radio-description">
+			<input id="A" type="radio" name="answer" class="problem-radio" /> <label for="A">A</label>
+			<input id="B" type="radio" name="answer" class="problem-radio" /> <label for="B">B</label>
+			<input id="C" type="radio" name="answer" class="problem-radio" /> <label for="C">C</label>
+			<input id="D" type="radio" name="answer" class="problem-radio" /> <label for="D">D</label>
+			<br/>
 			<input type="submit" name="submit" value="Submit" class="submit-button"><br/>
 		</form>
 		
