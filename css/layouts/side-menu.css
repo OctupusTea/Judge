@@ -150,6 +150,20 @@ h2.content-subhead {
 	color: #DD7;
 }
 
+p.back-link {
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 80px;
+}
+
+p.back-link a {
+	color: #DA7;
+}
+
+p.back-link a:hover {
+	color: #D77;
+}
+
 li.infor, li.Set{
 	margin: 10px auto 10px auto;
 	width: 300px;
