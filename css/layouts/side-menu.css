@@ -232,7 +232,19 @@ a:hover{
 	color: #DDD;
 	background-color: #222
 }
-
+.input-token {
+	margin: 20px 0px 5px 5px;
+	font-size: 180%;
+}
+.token-button {
+    font-size: 150%;
+	margin: 5px 5px 5px 5px;
+	border-radius: 8px;
+	height: 1.6em;
+	width: 12em;
+	color: #DDD;
+	background-color: #222
+}
 #submit-facebook {
 	margin: 5px 5px 105px 5px;
 	border-radius: 8px;

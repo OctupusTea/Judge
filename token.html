@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
-	<title>Activity :: Directions</title>
+	<title>Activity :: Token</title>
 	
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 	
@@ -18,7 +18,6 @@
 		<!--<![endif]-->
 </head>
 <body>
-
 <div id="layout">
 	<!-- Menu toggle -->
 	<a href="#menu" id="menuLink" class="menu-link">
@@ -32,64 +31,55 @@
 
 			<ul class="pure-menu-list">
 				<li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
+				
 				<li class="pure-menu-item"><a href="directions.html" class="pure-menu-link">How to Play</a></li>
+				
 				<li class="pure-menu-item"><a href="problem.html" class="pure-menu-link">Problem Set</a></li>
+				
 				<li class="pure-menu-item"><a href="sign.html" class="pure-menu-link">Sign in</a></li>
 
-				<li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
-					<a href="information.html" class="pure-menu-link">Profile</a>
-				</li>
+				<li class="pure-menu-item" class="menu-item-divided pure-menu-selected"><a href="information.html" class="pure-menu-link">Profile</a></li>
 
 				<li class="pure-menu-item"><a href="rank.html" class="pure-menu-link">Rank</a></li>
 				<li class="pure-menu-item"><a href="token.html" class="pure-menu-link">Token</a></li>
-				<li class="pure-menu-item"><a href="you_died.html" class="pure-menu-link">Contact Us</a></li>
 				
-
+				<li class="pure-menu-item"><a href="you_died.html" class="pure-menu-link">Contact Us</a></li>
+				<li></li>
 			</ul>
 		</div>
 	</div>
 
 	<div id="main">
 		<div class="header">
-			<h1>How to Play</h1>
-			<h2>Directions for playing the game</h2>
+			<h1>Token</h1>
+			<h2><h2>JUST DO IT!! DO IT!!</h2><h2>
 		</div>
 
 		<div class="content">
-			<h2 class="content-subhead"></h2>
-			<p>
-			</p>
-		</div>
+		<form action="" class="token">
+			<input type="text" name="input" placeholder="Answer Here." class="input-token" />
+			<input type="submit" name="submit" value="Submit" class="token-button" maxlength="30"><br/>
+		</form>
+	</div>
+	
+	<div class="header" >
+			<h1 >Token是什麼?能吃嗎?</h1>
+
+	</div>
+	
+	<div class="content">
+	    <h2 class="content-title">Rules:</h2>
+	    
+	    	
+	    		<p class="content-listed">1.在資訊之夜相關之處尋找線索</p>
+	    		<p class="content-listed">2.將得到的Token輸入上方欄位</p>
+	    		<p class="content-listed">3.輸入正確即可獲得積分獎勵!</p>
+	    	
+	    
+		
 	</div>
 </div>
 
-<div class="content">
-	<h2>Rules:</h2>
-	<p>Answer the questions correctly as many as you can.</p>
-</div>
-<div class="content">
-	<h2>FAQ</h2>
-	<dl>
-		<dt class="question">Q1</dt>
-		<dd class="question">?</dd>
-		<dt class="answer">A1</dt>
-		<dd class="answer">...</dd>
-		<dt class="question">Q2</dt>
-		<dd class="question">?</dd>
-		<dt class="answer">A2</dt>
-		<dd class="answer">...</dd>
-		<dt class="question">Q3</dt>
-		<dd class="question">?</dd>
-		<dt class="answer">A3</dt>
-		<dd class="answer">...</dd>
-	</dl>
-
-</div>
-
-<div class="content">
-	<h2 class="content-emphasize">Wanna play a game?</h2>
-</div>
-		
 <script src="js/ui.js"></script>
 
 </body>
